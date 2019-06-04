@@ -4,6 +4,6 @@ while i < array.length
   yield array[i]
   i = i + 1
   end
-  return
+  return array
 end
 my_collect([1, 2, 3]) {array.upcase}

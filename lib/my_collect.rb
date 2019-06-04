@@ -6,4 +6,6 @@ while i < array.length
   end
   return array
 end
-my_collect([1, 2, 3]) {array.upcase}
+my_collect([1, 2, 3]) do |elements|
+  array.upcase
+end

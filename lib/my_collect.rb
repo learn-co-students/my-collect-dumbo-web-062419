@@ -7,6 +7,6 @@ while i < array.length
   return array
 end
 
-my_collect(["javascript", "python"]) do |elements| 
+my_collect(["javascript", "python"]) do |elements|
   elements.upcase
 end
